@@ -1,0 +1,154 @@
+
+// Tipografía
+.txtH70{font-family: "Helvetica Neue", Roboto, Arial, sans-serif;   font-size: 60px;    }     //70
+.txtH40{font-family: "Helvetica Neue", Roboto, Arial, sans-serif;   font-size: 36px;    }     //40
+.txtH30{font-family: "Helvetica Neue", Roboto, Arial, sans-serif;   font-size: 24px;    }     //30
+.txtH24{font-family: "Helvetica Neue", Roboto, Arial, sans-serif;   font-size: 20px;    }     //24
+
+// @font-face {
+//     font-family: Avenir;
+//     src: url("../../fonts/AvenirLTStd-Book.otf") format("opentype");
+// }
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../../fonts/Montserrat-Light.ttf") format("truetype");
+}
+.txtN18{font-family: Montserrat, Roboto, Arial, sans-serif;  font-size: 17px;    }     //18
+.txtN15{font-family: Montserrat, Roboto, Arial, sans-serif;  font-size: 14px;    }     //15
+
+
+
+// Zona Banner superior
+.big-banner{
+  background-image: url(../../images/despacho-executive-sim.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+// Zona Flexiblilidad | Cercania | Espacio innovador
+@media(max-width: 767px) {
+    .txt_coworking-central{
+        color: $primary;
+    } 
+}
+@media(min-width: 768px) {
+    .bg-T34-gris{background-color: #F0F0F0;} 
+    .bg-T34-gris-verdoso{background-color: #aabdbf;}   
+}
+
+
+
+// Zona Caracteristicas
+@media(max-width: 767px) {
+    .bg-sala_reuniones{
+        background-image: url(../../images/sala-de-reuniones.jpg); 
+        background-repeat: no-repeat;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-size: 100% auto;
+        min-height: 250px;
+    }
+}
+@media(min-width: 768px) {
+    .bg-sala_reuniones{
+        background-image: url(../../images/sala-de-reuniones.jpg); 
+        background-repeat: no-repeat;
+        background-position: 50% 0%;
+        background-size: auto 100%;
+     }
+}
+
+
+
+// Zona Cuadros oficinas 2x3
+.bg-gris{background-color: #F0F0F0;} 
+
+.bg-freelance{
+    background-image: url(../../images/oficina-freelance.jpg); 
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    min-height: 350px;
+    background-size: cover;
+}
+
+.bg-company{
+    background-image: url(../../images/oficina-company.jpg); 
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    min-height: 350px;
+    background-size: cover;
+}
+
+.bg-executive{
+    background-image: url(../../images/oficina-executive.jpg); 
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    min-height: 350px;
+    background-size: cover;
+}
+
+.miValign{
+     margin: auto;
+     padding: 2em;
+}
+
+@media(min-width: 768px) {
+    .bg-freelance, .bg-company, .bg-executive{
+        background-position: 50% 50%;
+        min-height: 460px;
+    }
+    .miValign{
+        max-width: 500px;
+        margin: auto;
+        padding: 10em 2em 0em 2em;
+    }
+
+}
+
+
+
+// Efecto hover en el Slide
+.bg-oscuro_trans{
+    background-color: rgba(55,55,55,0.75);
+    transform: translateZ(0);
+}
+.carousel-caption{
+  opacity:0;
+  transition:500ms ease-in-out;
+}
+.carousel-item:hover .carousel-caption{
+  opacity:1;
+}
+
+
+
+// Zona Lightbox
+.decolorar:hover {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.bg-gris_trans{
+    background-color: rgba(255,255,255,0.75);
+}
+.bg-gris_verdoso{
+    background-color: #aabdbf;
+}
+
+
+
+
+
+
+
+
+form .errors{
+    text-align: left
+}
+form .errors .error {
+    color: #ea4335;
+    font-size: 12px
+}
