@@ -1,5 +1,6 @@
 ﻿# Código gitignore para evitar procesar los directorios de las dependencias
 .recursos/
 node_modules/
+credenciales/credenciales.txt
 
 # zAyudas/
