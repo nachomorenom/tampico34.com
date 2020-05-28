@@ -6,6 +6,18 @@
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Tampico 34</title>
+
+	<meta property="og:title" content="Tampico34.com" />
+    <meta property="og:description" content="Tu espacio de coworking en Madrid" />
+    <meta property="og:url" content="https://www.tampico34.com/" />
+    <meta property="og:image" content="https://static.wixstatic.com/media/df2d4d_8791e2408a9b428b8ddb22b3e9aacca3~mv2.jpg/v1/fill/w_1500,h_791,al_c/df2d4d_8791e2408a9b428b8ddb22b3e9aacca3~mv2.jpg" />
+	<meta property="og:image:width" content="1500">
+	<meta property="og:image:height" content="791">
+	<meta property="og:site_name" content="Tampico34">
+	<meta property="og:type" content="website">
+
+
+
     <link rel="stylesheet" href="css/bootstrap/main.css">
     <link rel="stylesheet" href="plugins/fontawesome/fontawesome.css">
     <link rel="stylesheet" href="plugins/fontawesome/brands.css">
@@ -16,6 +28,9 @@
     <link href='https://fonts.googleapis.com/css?family=Nunito Sans' rel='stylesheet'>
 
 	<link rel="stylesheet" href="plugins/lightbox2/lightbox.css">
+
+	<!-- OPEN GRAPH -->
+	<link rel="import" href="../partials/open-graph.php">
 
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
@@ -35,11 +50,27 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-
+	
+	
 </head>
 
 
 <body>
+	<!-- MENU -->
+	<div class="container-fluid-nacho">
+		<div class="row">
+			<ul>
+				<!--<li class="botones"><a href=”#”>Inicio</a></li>-->
+				<li class="botones"><a href="#caracteristicas">Caracteristicas</a></li>
+				<li class="botones"><a href="#oficinas">Oficinas</a></li>
+				<li class="botones"><a href="#precios">Precios</a></li>
+				<li class="botones"><a href="#contacto">Contacto</a></li>
+			</ul>
+		</div>
+	
+	</div>
+	
+
 
 	<!-- Logo sticky -->
 	<div class="container-fluid sticky-top bg-white">
@@ -61,9 +92,6 @@
 						<h5 class="text-primary my-5 txtH24">Tu espacio de coworking en Madrid</h5>
 						<!-- <div class="btn btn-primary mb-5 px-4 py-3 txtN15">CONTÁCTANOS</div> -->
 						<a href="#formulario_contacto" class="btn btn-primary mb-5 px-4 py-3 txtN15">CONTÁCTANOS</a>
-
-
-
 						<br><br>
 					</div>
 				</div>
@@ -119,12 +147,13 @@
 	<!-- Caracteristicas -->
 	<div class="row no-gutters">
 		<div class="col-12 col-md-6 bg-sala_reuniones my-5 text-center">
-			<h3 class="text-white d-md-none mt-5 pt-5 txtH30">CARACTERÍSTICAS</h3>			
+			<h3 class="text-white d-md-none mt-5 pt-5 txtH30" name="caracteristicas">CARACTERÍSTICAS</h3>			
 		</div>
 		<div class="col-12 col-md-6 my-md-5 mx-5 mx-md-0 px-md-2 px-lg-5">
 			<div class="row my-md-5">
 				<div class="col">
-					<h3 class="text-primary d-none d-md-block txtH30">CARACTERÍSTICAS</h3>
+					<!--<h3 class="text-primary d-none d-md-block txtH30">CARACTERÍSTICAS</h3>-->
+					<a class="text-primary d-none d-md-block txtH30" id="caracteristicas">CARACTERISTICAS</a>
 					<p class="text-primary txtN18 d-none d-md-block">Todo lo que necesitas</p>
 				</div>
 			</div>
@@ -158,7 +187,8 @@
 		<!-- Oficinas -->
 		<div class="row">
 			<div class="col text-center py-5">
-				<h1 class="text-primary txtH40">OFICINAS</h1>
+				<!--<h1 class="text-primary txtH40">OFICINAS</h1>-->
+				<a class="text-primary txtH40" id="oficinas">OFICINAS</a>
 				<p class="text-primary txtN18">Encuentra el espacio perfecto para tu equipo</p>
 			</div>
 		</div>
@@ -316,7 +346,8 @@
 		<!-- Precios -->
 		<div class="row">
 			<div class="col text-center py-5">
-				<h1 class="text-primary txtH40">PRECIOS</h1>
+				<!--<h1 class="text-primary txtH40">PRECIOS</h1>-->
+				<a class="text-primary txtH40" id="precios">PRECIOS</a>
 				<p class="text-primary txtN18">Nuestras ofertas</p>
 			</div>
 		</div>
@@ -419,14 +450,18 @@
 	<!-- Contacto -->
 	<div class="row">
 		<div class="col text-center py-5 my-3">
-			<h1 class="text-primary display-5">CONTACTO</h1>
+			<!--<h1 class="text-primary display-5">CONTACTO</h1>-->
+			<a class="text-primary display-5" id="contacto">CONTACTO</a>
 		</div>
 	</div>
 
 	<!-- Formulario -->
 	<div class="row">
 		<div class="col-12 col-md-5 offset-md-1 mb-5">
-			<img src="images/plano-situacion-Tampico34-Madrid.png" alt="" width=100%>
+			<!--<img src="images/plano-situacion-Tampico34-Madrid.png" alt="" width=100%>-->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.42507847654!2d-3.636199884906784!3d40.44372777936201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f10f7f0ca3f%3A0x6d618d246312a204!2sCalle%20de%20Tampico%2C%2034%2C%2028027%20Madrid!5e0!3m2!1ses!2ses!4v1590591494842!5m2!1ses!2ses" 
+				width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" 
+				tabindex="0"></iframe>
 		</div>
 		<div class="col-12 col-md-5">
 			<form id="formulario_contacto" action="/libs/send.php" role="form" method="POST">
@@ -484,6 +519,7 @@
 
 
 <!-- scripts -->
+
 
 <!-- Bootstrap4 -->
 <script src="js/jquery.js"></script>
