@@ -452,7 +452,7 @@
 					tabindex="0"></iframe>
 		</div>
 		<div class="col-12 col-md-5">
-			<form id="formulario_contacto" action="/libs/send.php" role="form" method="POST">
+			<form id="formulario_contacto" action="partials/phpmailer/send.php" role="form" method="POST">
 				<div class="form-group">
 					<label for="nombre" class="text-primary txtN15">Nombre</label>
 					<input id="nombre" type="text" class="form-control" name="FirstName" placeholder="Dinos cómo te llamas" required>
