@@ -66,27 +66,7 @@
 		</div>
 	</div>-->
 	<div class="row">
-		<div class="col-3 px-md-5 mt-md-3">
-			<img src="images/Logo Tampico34_ espacio de coworking en Madrid.png" alt="Tampico 34 - Espacio de coworking en Madrid">
-		</div>
-		<div class="col-9 mt-md-4 mt-2 text-right navbar-expand-md">
-			<nav class="navbar navbar-light" style="display: flex; justify-content: right">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" 
-					data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" 
-						aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-			</nav>
-			<div class="collapse navbar-collapse float-right" id="navbarToggleExternalContent">
-			<ul>
-				<!--<li class="botones"><a href=”#”>Inicio</a></li>-->
-				<li class="nav-link float-md-left"><a href="#caracteristicas">Caracteristicas</a></li>
-				<li class="nav-link float-md-left"><a href="#oficinas">Oficinas</a></li>
-				<li class="nav-link float-md-left"><a href="#precios">Precios</a></li>
-				<li class="nav-link float-md-left"><a href="#contacto">Contacto</a></li>
-			</ul>
-			</div>
-		</div>
+		<?php include "partials/menu.php" ?>
 	</div>
 
 	<!-- Banner principal -->
@@ -467,9 +447,9 @@
 	<div class="row">
 		<div class="col-12 col-md-5 offset-md-1 mb-5">
 			<!--<img src="images/plano-situacion-Tampico34-Madrid.png" alt="" width=100%>-->
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.42507847654!2d-3.636199884906784!3d40.44372777936201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f10f7f0ca3f%3A0x6d618d246312a204!2sCalle%20de%20Tampico%2C%2034%2C%2028027%20Madrid!5e0!3m2!1ses!2ses!4v1590591494842!5m2!1ses!2ses" 
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1231.3892306138212!2d-3.634836863075209!3d40.44389701225421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422f16ddef893b%3A0x9ee8f32be262bbe1!2sENZO!5e0!3m2!1ses!2ses!4v1591180291690!5m2!1ses!2ses" 
 				width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" 
-				tabindex="0"></iframe>
+					tabindex="0"></iframe>
 		</div>
 		<div class="col-12 col-md-5">
 			<form id="formulario_contacto" action="/libs/send.php" role="form" method="POST">

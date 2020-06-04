@@ -3137,10 +3137,12 @@ input[type="button"].btn-block {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  list-style: none; }
+  list-style: none; 
+  }
   .navbar-nav .nav-link {
     padding-right: 0;
-    padding-left: 0; }
+    padding-left: 0; 
+    }
   .navbar-nav .dropdown-menu {
     position: static;
     float: none; }
