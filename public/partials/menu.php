@@ -11,10 +11,10 @@
 			</nav>
 			<div class="collapse navbar-collapse float-right mt-md-3 mt-5" id="navbarToggleExternalContent">
 				<div>
-					<a data-scroll class="nav-link float-md-left" href="#caracteristicas">Características</a>
-					<a class="nav-link float-md-left" href="#oficinas">Oficinas</a>
-					<a class="nav-link float-md-left" href="#precios">Precios</a>
-					<a class="nav-link float-md-left" href="#contacto">Contacto</a>
+					<a data-scroll class="nav-link float-md-left" href="#caracteristicas"><b>Características</b></a>
+					<a class="nav-link float-md-left" href="#oficinas"><b>Oficinas</b></a>
+					<a class="nav-link float-md-left" href="#precios"><b>Precios</b></a>
+					<a class="nav-link float-md-left" href="#contacto"><b>Contacto</b></a>
 	 			</div>
 			</div>
 		</div>
