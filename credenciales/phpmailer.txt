@@ -1,9 +1,0 @@
-<?php 
-$credenciales_clientId      = '';
-$credenciales_clientSecret  = '';
-
-$credenciales_email         = '';
-$credenciales_refreshToken  = '';
-
-
-?>
