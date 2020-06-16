@@ -13,7 +13,7 @@
     <meta property="og:image" content="https://static.wixstatic.com/media/df2d4d_8791e2408a9b428b8ddb22b3e9aacca3~mv2.jpg/v1/fill/w_1500,h_791,al_c/df2d4d_8791e2408a9b428b8ddb22b3e9aacca3~mv2.jpg" />
 	<meta property="og:image:width" content="1500">
 	<meta property="og:image:height" content="791">
-	<meta property="og:site_name" content="Tampico34">
+	<meta property="og:site_name" content="TAMPICO34">
 	<meta property="og:type" content="website">
 
 
@@ -454,11 +454,7 @@
 					tabindex="0"></iframe>
 		</div>
 		<div class="col-12 col-md-5">
-<<<<<<< HEAD
 			<form id="formulario_contacto" action="controllers/send.php" role="form" method="POST">
-=======
-			<form id="formulario_contacto" action="partials/phpmailer/send.php" role="form" method="POST">
->>>>>>> 179335c8006de6340adc8cc275a20f202ccb1e2b
 				<div class="form-group">
 					<label for="nombre" class="text-primary txtN15">Nombre</label>
 					<input id="nombre" type="text" class="form-control" name="FirstName" placeholder="Dinos cómo te llamas" required>
