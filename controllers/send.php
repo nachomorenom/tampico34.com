@@ -178,6 +178,7 @@ $mail->AltBody = 'Este es el texto plano de la prueba del PHPMailer'; // -------
 // //Attach an image file
 // $mail->addAttachment('images/phpmailer_mini.png');
 
+
 header("Location: ../libs/phpmailer/sent.php");
 
 

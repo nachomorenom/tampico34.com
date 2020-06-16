@@ -65,7 +65,7 @@
 		</div>
 	</div>-->
 	<div class="row">
-		<?php include "partials/menu.php" ?>
+		<?php include "views/partials/menu.php" ?>
 	</div>
 
 	<!-- Banner principal -->
@@ -438,7 +438,7 @@
 	<div class="row">
 		<div class="col text-center py-5 my-3">
 			<!--<h1 class="text-primary display-5">CONTACTO</h1>-->
-			<a class="text-primary display-5" id="contacto">CONTACTO</a>
+			<a class="text-primary txtH40" id="contacto">CONTACTO</a>
 		</div>
 	</div>
 
