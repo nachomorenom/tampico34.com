@@ -32,6 +32,7 @@ $title = "TAMPICO34 | Mensaje enviado";
 			</div>
 		</div>
 	</div>
+	
 	<?php include $path . "/views/partials/footer.php" ?>
 </body>
 </html>
