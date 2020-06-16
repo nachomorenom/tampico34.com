@@ -5,12 +5,12 @@
 <head>
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Tampico 34</title>
+	<title>Coworking en Madrid | Sala Reuniones y Oficinas | TAMPICO34</title>
 
 	<meta property="og:title" content="Coworking en Madrid | Sala Reuniones y Oficinas | TAMPICO34" />
     <meta property="og:description" content="Tampico34 es un coworking en Madrid (zona Arturo Soria) con oficinas y puestos de trabajo individuales en alquiler ¡Totalmente equipado!" />
     <meta property="og:url" content="https://www.tampico34.com/" />
-    <meta property="og:image" content="https://static.wixstatic.com/media/df2d4d_8791e2408a9b428b8ddb22b3e9aacca3~mv2.jpg/v1/fill/w_1500,h_791,al_c/df2d4d_8791e2408a9b428b8ddb22b3e9aacca3~mv2.jpg" />
+    <meta property="og:image" content="https://www.tampico34.com/images/opengraph/tampico34.jpg" />
 	<meta property="og:image:width" content="1500">
 	<meta property="og:image:height" content="791">
 	<meta property="og:site_name" content="TAMPICO34">
@@ -29,8 +29,7 @@
 
 	<link rel="stylesheet" href="plugins/lightbox2/lightbox.css">
 
-	<!-- OPEN GRAPH -->
-	<link rel="import" href="../partials/open-graph.php">
+
 
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
