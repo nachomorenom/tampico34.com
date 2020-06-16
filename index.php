@@ -511,9 +511,9 @@
 
 
 <!-- Bootstrap4 -->
-<script src="js/jquery.js"></script>
-<script src="js/popper.js"></script>
-<script src="js/bootstrap.js"></script>
+<script src="/static/js/jquery.js"></script>
+<script src="/static/js/popper.js"></script>
+<script src="/static/js/bootstrap.js"></script>
 
 
 <script>
@@ -523,7 +523,6 @@
 </script>
 
 
-<!-- lightbox2   ->   https://lokeshdhakar.com/projects/lightbox2/ -->
 <script src="/vendor/lightbox2/lightbox.js"></script>
 
 <script>
@@ -563,14 +562,5 @@ $(document).ready(function(){
   });
 });
 </script>
-
-<!-- <script type="text/javascript" src="/js/contact/jquery2.min.js"></script>
-<script type="text/javascript" src="/js/contact/angular.min.js"></script>
-<script type="text/javascript" src="/js/contact/angular-animate.min.js"></script>
-<script type="text/javascript" src="/js/contact/angular-sanitize.min.js"></script>
-<script type="text/javascript" src="/js/contact/angular-validform.js"></script>
-
-<script language="JavaScript" src="/js/tampico34.js"></script> -->
-
 </body>
 </html>

@@ -4,12 +4,12 @@
 
 // aqui metemos los datos en mysql
 
-include '../credentials/bd.php';
+include '../credentials/db.php';
 
-$servername = $credentials_server;
-$database = $credentials_bd;
-$username = $credentials_user;
-$password = $credentials_pass;
+$servername = $credentials_servername;
+$database = $credentials_dbname;
+$username = $credentials_username;
+$password = $credentials_password;
 
 
 // Create connection
