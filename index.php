@@ -425,16 +425,14 @@ $title = "Coworking en Madrid | Sala Reuniones y Oficinas | TAMPICO34";
 		</div>
 	</div>
 
-
-
-
 </div><!-- Fin container -->
-	
+
+
 <?php include $path . "/views/partials/footer.php" ?>
 
 
 <!-- scripts -->
-
+<?php include $path . "/views/partials/cookies.php" ?>
 
 <!-- Bootstrap4 -->
 <script src="/static/js/jquery.js"></script>

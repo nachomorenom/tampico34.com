@@ -102,7 +102,7 @@ $mail->AuthType = 'XOAUTH2';
 //Either the gmail account owner, or the user that gave consent
 // Aqui meto mis datos --------------------------------------------------------------------------------- OJO - OJO - OJO
 require '../credentials/phpmailer.php';
-$emailTo            = "fernando.plaza@enzo.es";
+$emailTo            = "nachomorenomontesinos@gmail.com";
 $emailRemitente     = $credentials_email;
 $identidadRemitente = $credentials_fromName;
 $clientId           = $credentials_clientId;
